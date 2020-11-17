@@ -10,20 +10,8 @@
   <body>
       <div class='container-fluid'>
 
-          <h3 class='mt-4'>Second Floor Art Studios</h3>
-          <p class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Duis nec elit ac leo ornare bibendum. Lorem ipsum dolor 
-            sit amet, consectetur adipiscing elit. Morbi dictum, dolor 
-            a hendrerit condimentum, justo tellus imperdiet ante, sit 
-            amet tincidunt massa mi vel sem.</p>
+        <!-- art view / trigger in art-expand -->
 
-          <button class='btn btn-secondary'>Link to External</button>
-
-
-        <!-- pic grid -->
-
-        <!-- view: art-expand -->
-        <!-- img triggers modal -->
         <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
           Launch demo modal
         </button>
@@ -32,23 +20,27 @@
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
+                <button type="button" class="btn btn-secondary col-2" data-dismiss="modal">Close</button>
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">image</h5>
+                <div class="modal-title ml-auto mr-auto">
+                  <h2>img</h2>
+                  <p>artist</p>
+                  <p>bio</p>
+                </div>
               </div>
               <div class="modal-body">
-                title / artist
+                <!-- toggles view -->
+                <h1>FEED/Gallery Info</h1>
+                <p>grid goes here</p>
               </div>
               <div class="modal-footer">
-                <button class='btn btn-secondary'>Like</button>
-                <!-- triggers art view -->
-                <button class="btn btn-secondary">Art View</button>
               </div>
             </div>
           </div>
         </div>
 
-
       </div>
+        
 
         <nav class="navbar fixed-bottom navbar-dark bg-dark">
             <a class="navbar-brand" href="#">
