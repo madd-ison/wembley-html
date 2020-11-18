@@ -12,48 +12,56 @@
   <body>
       <div class='container-fluid'>
         <div class='shadow'>
-          <div class='row mb-1'>
+          <div class='row'>
             <div class='col-3'>
-              <h1>img</h1>
+              <span class='dot bg-primary'></span>
             </div>
-            <div class='col-8 offset-1 d-flex flex-column'>
-              <div>icon</div>
-              <p class='small'>This is a bio section. Artist can share 
+            <div class='col-8 ml-1 d-flex flex-column'>
+              <div class='d-flex flex-row'>
+                <img src='assets/avatar-sm.png' class='img-thumbnail' />
+                <span class='mt-1 small'>
+                  Name of Artist
+                </span>
+              </div>
+              <p class='small ml-1'>This is a bio section. Artist can share 
                 very brief description.
               </p>
             </div>
           </div>
 
-        <button class='btn btn-link mb-5'>Bio</button>
+          <div class='row d-flex flex-row'>
+            <img src='assets/arrow-sm.png' class='img-thumbnail' />
+            <button class='btn btn-link mb-5'>Bio</button>
+          </div>
 
         <form class='pb-5'>
           <div class="form-group">
             <div class='form-row'>
-              <p>icon</p>
-              <label for="full name" class='col'>Full Name</label>
+              <img src='assets/user-sm.png' class='img-thumbnail' />
+              <label for="full name" class='col small mt-2'>Full Name</label>
           </div>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control input-b">
+          </div>
+          <div class="form-group">
+            <div class='form-row'>
+              <img src='assets/msg-sm.png' class='img-thumbnail' />
+              <label for="email" class='col small mt-2'>Email</label>
+          </div>
+            <input type="text" class="form-control input-b">
+          </div>
+          <div class="form-group">
+            <div class='form-row'>
+              <img src='assets/pw-sm.png' class='img-thumbnail'/>
+              <label for="Password" class='col small mt-2'>Password</label>
+          </div>
+            <input type="text" class="form-control input-b">
           </div>
           <div class="form-group">
             <div class='form-row'>
               <p>icon</p>
-              <label for="email" class='col'>Email</label>
+              <label for="room number" class='col small'>Room #</label>
           </div>
-            <input type="text" class="form-control">
-          </div>
-          <div class="form-group">
-            <div class='form-row'>
-              <p>icon</p>
-              <label for="Password" class='col'>Password</label>
-          </div>
-            <input type="text" class="form-control">
-          </div>
-          <div class="form-group">
-            <div class='form-row'>
-              <p>icon</p>
-              <label for="room number" class='col'>Room #</label>
-          </div>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control input-b">
           </div>
           <button class='btn btn-light btn-round pl-5 pr-5 float-right'>Save</button>
         </form>

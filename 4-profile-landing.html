@@ -12,59 +12,79 @@
       <div class='container-fluid'>
 
         <div class='shadow mt-3'>
-        <div class='row mb-5'>
-          <div class='col-3'>
-            <h1>img</h1>
+          <div class='row'>
+            <div class='col-3'>
+              <span class='dot bg-primary'></span>
+            </div>
+            <div class='col-8 ml-1 d-flex flex-column'>
+              <div class='d-flex flex-row'>
+                <img src='assets/avatar-sm.png' class='img-thumbnail' />
+                <span class='mt-1 small'>
+                  Name of Artist
+                </span>
+              </div>
+              <p class='small ml-1'>This is a bio section. Artist can share 
+                very brief description.
+              </p>
+            </div>
           </div>
-          <div class='col-8 offset-1 d-flex flex-column'>
-            <div>icon</div>
-            <p class='small'>This is a bio section. Artist can share 
-              very brief description.
-            </p>
-          </div>
-        </div>
 
         <div class='row shadow'>
-          <div class='col-3'>
+          <div class='col-3 mr-2 '>
             <span class='dot bg-primary'></span>
           </div>
-          <div class='col-8 offset-1 d-flex flex-column'>
+          <div class='col-6 offset-1 d-flex flex-column'>
             <h4 class='text-primary'>Connected</h4>
             <p class='small text-primary'>name of device</p>
             <p class='small'>Network Name</p>
           </div>
         </div>
 
-        <div class='row mt-5'>
-            <div class='col-2'>icon</div>
-            <a href='#' class='col-8'>Profile Page</a>
-            <div class='col-2'>icon</div>
-        </div>
-        <hr />
-        <div class='row'>
-            <div class='col-2'>icon</div>
-            <a href='#' class='col-8'>My Groups</a>
-            <div class='col-2'>icon</div>
-        </div>
-        <hr />
-        <div class='row'>
-            <div class='col-2'>icon</div>
-            <a href='#' class='col-8'>Devices</a>
-            <div class='col-2'>icon</div>
-        </div>
-        <hr />
-        <div class='row'>
-            <div class='col-2'>icon</div>
-            <a href='#' class='col-8'>Billing</a>
-            <div class='col-2'>icon</div>
-        </div>
-        <hr />
-        <div class='row'>
-            <div class='col-2'>icon</div>
-            <a href='#' class='col-8'>Connect</a>
-            <div class='col-2'>icon</div>
-        </div>
-        <hr />
+        <!--TO DO swap img w svg -->
+
+      <ul class="nav flex-column mb-3 lh-tight">
+          <li class="nav-item">
+            <a class="nav-link d-flex flex-row no-gutters" href="#">
+              <img src='assets/user-sm.png' class='img-thumbnail' />
+              <p class='col-9 ml-2 mt-2'>Profile Page</p>
+              <img src='assets/arrow-sm.png' class='img-thumbnail rotateimg' />
+            </a>
+            <hr />
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex flex-row no-gutters" href="#">
+              <img src='assets/group-sm.png' class='img-thumbnail' />
+              <p class='col-9 ml-2 mt-2'>My Groups</p>
+              <img src='assets/arrow-sm.png' class='img-thumbnail rotateimg' />
+            </a>
+            <hr />
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex flex-row no-gutters" href="#">
+              <!-- TO DO replace this icon when available -->
+              <img src='assets/mobile-sm.png' class='img-thumbnail' />
+              <p class='col-9 mt-2 ml-2'>Devices</p>
+              <img src='assets/arrow-sm.png' class='img-thumbnail rotateimg' />
+            </a>
+            <hr />
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex flex-row no-gutters" href="#">
+              <img src='assets/port-sm.png' class='img-thumbnail' />
+              <p class='col-9 mt-2 ml-2'>Billing</p>
+              <img src='assets/arrow-sm.png' class='img-thumbnail rotateimg' />
+            </a>
+            <hr />
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex flex-row no-gutters" href="#">
+              <img src='assets/wifi-sm.png' class='img-thumbnail' />
+              <p class='col-9 mt-2 ml-2'>Connect</p>
+              <img src='assets/arrow-sm.png' class='img-thumbnail rotateimg' />
+            </a>
+            <hr />
+          </li>
+        </ul>
       </div>
       </div>
         
