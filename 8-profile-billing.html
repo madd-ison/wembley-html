@@ -31,16 +31,19 @@
             </div>
           </div>
 
-      <button class='btn btn-link text-primary'>Billing</button>
+          <div class='row d-flex flex-row'>
+            <img src='assets/arrow-sm.png' class='img-thumbnail' />
+            <button class='btn btn-link'>Billing</button>
+          </div>
 
         <h5 class='text-primary mt-3'>Your Saved Cards</h5>
-        <div class='row shadow mb-4'>
+        <div class='row shadow mb-4 pt-0 pb-1'>
           <div class='col-4'>
             <h3 class='text-primary'>card</h3>
           </div>
           <div class='d-flex flex-column'>
-            <div>Visa Master Card</div>
-            <div>Card #</div>
+            <p class='mb-0'>Visa Master Card</p>
+            <p class='text-muted mb-0'>Card #</p>
           </div>
         </div>
 
@@ -49,30 +52,29 @@
           <button class='btn btn-round btn-primary'>Add</button>
           </div>
         </div>
-        <hr />
+        <hr class='mb-0' />
 
         <h5 class='text-primary'>Your Current Plan</h5>
-        <div class='row shadow mb-4'>
-          <div class='col-4'>
-            <span class='dot bg-primary'></span>
+        <div class='row shadow pl-1 pr-1 mb-4'>
+          <div class='col-3'>
+            <img src='assets/plan-sm.png' class='img-fluid' />
           </div>
-          <div class='col d-flex flex-column lh-tight'>
+          <div class='col-5 d-flex flex-column lh-tight'>
             <p>Plan</p>
-            <p class='small'>Current ?</p>
+            <p class='small text-muted mb-0'>Current ?</p>
             <!-- TO DO: this can be smaller -->
-            <p class='small'>next payment due:</p>
+            <p class='small text-muted'>next payment due:</p>
           </div>
-          <div class='col d-flex flex-column lh-tight'>
-            <p>$$$</p>
-            <!-- TO DO: this should be a btn/link -->
-            <p class='small text-primary'>View Invoice</p>
+          <div class='col-4 d-flex flex-column lh-tight'>
+            <p class='text-center'><b>$$$$</b></p>
+            <button class='btn btn-link fs text-primary'>View Invoice</button>
           </div>
         </div>
         <hr />
 
         <!-- TO DO: make sure this works w footer -->
         <div class='d-flex flex-column mb-5 pb-3'>
-          <h4>Eligible Deals</h4>
+          <h5 class='text-primary'>Eligible Deals</h5>
           <div>img // text overlay + link</div>
         </div>
         </div>
