@@ -4,81 +4,80 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet" type="text/css" />
+
 
     <title>Wembley Park</title>
   </head>
   <body>
       <div class='container-fluid'>
 
-        <div class='row mt-3'>
-          <div class='col-4 offset-1'>
-            <h1>img</h1>
+        <div class='shadow'>
+          <div class='row mt-3'>
+            <div class='col-3'>
+              <span class='dot bg-primary'></span>
+            </div>
+            <div class='col-8 offset-1 d-flex flex-column'>
+              <div>icon</div>
+              <p class='small'>This is a bio section. Artist can share 
+                very brief description.
+              </p>
+            </div>
           </div>
-          <div class='col-6 d-flex flex-column'>
-            <div>icon / name</div>
-            <div>user bio</div>
-          </div>
-        </div>
+
+          <!-- TO DO svg arrow-->
         <button class='btn btn-link'>Devices</button>
 
-        <div class='row mt-3 mb-4'>
-          <div class='col-4 offset-1'>
-            <h2>img</h2>
+        <div class='row shadow'>
+          <div class='col-3'>
+            <span class='dot bg-primary'></span>
           </div>
-          <div class='d-flex flex-column'>
-            <div>Connected</div>
-            <div>name of device</div>
-            <div>Network Name</div>
+          <div class='col-8 offset-1 d-flex flex-column lh-tight'>
+            <h4 class='text-primary'>Connected</h4>
+            <p class='small text-primary'>name of device</p>
+            <p class='small'>Network Name</p>
           </div>
         </div>
-
         <div class='row'>
           <div class='col-3 offset-9'>
-          <button class='btn btn-secondary'>Add</button>
+            <!-- TO DO add padding/border-radius to btn class -->
+          <button class='btn btn-round btn-primary pl-3 pr-3'>Add</button>
           </div>
         </div>
 
         <div class='row mt-5'>
-          <div class='col-2'>
-            <h2>img</h2>
+          <div class='col-2 mr-2'>
+            <span class='dot-sm bg-primary'></span>
+          </div>
+          <div class='col d-flex flex-column lh-tight'>
+            <p class='small'>name of device</p>
+            <p class='small'>### ### ###</p>
           </div>
           <div class='col d-flex flex-column'>
-            <div>name of device</div>
-            <div>### ### ###</div>
-          </div>
-          <div class='col d-flex flex-column'>
-            <button class='btn btn-secondary'>View</button>
-            <button class='btn btn-secondary'>Disconnect</button>
-          </div>
-        </div>
-        <div class='row mt-5'>
-          <div class='col-2'>
-            <h2>img</h2>
-          </div>
-          <div class='col d-flex flex-column'>
-            <div>name of device</div>
-            <div>### ### ###</div>
-          </div>
-          <div class='col d-flex flex-column'>
-            <button class='btn btn-secondary'>View</button>
-            <button class='btn btn-secondary'>Disconnect</button>
-          </div>
-        </div>
-        <div class='row mt-5'>
-          <div class='col-2'>
-            <h2>img</h2>
-          </div>
-          <div class='col d-flex flex-column'>
-            <div>name of device</div>
-            <div>### ### ###</div>
-          </div>
-          <div class='col d-flex flex-column'>
-            <button class='btn btn-secondary'>View</button>
-            <button class='btn btn-secondary'>Disconnect</button>
-          </div>
-        </div>
 
+            <!-- TODO edit btn class ! -->
+
+            <button class='btn btn-round btn-light pl-3 pr-3'>View</button>
+            <button class='btn btn-round btn-light pl-3 pr-3'>Disconnect</button>
+          </div>
         </div>
+        <hr />
+
+        <div class='row'>
+          <div class='col-2 mr-2'>
+            <span class='dot-sm bg-primary'></span>
+          </div>
+          <div class='col d-flex flex-column lh-tight'>
+            <p class='small'>name of device</p>
+            <p class='small'>### ### ###</p>
+          </div>
+          <div class='col d-flex flex-column'>
+            <button class='btn btn-round btn-light pl-3 pr-3'>View</button>
+            <button class='btn btn-round btn-light pl-3 pr-3'>Disconnect</button>
+          </div>
+        </div>
+      </div>
+    </div>
         
 
       <nav class="navbar fixed-bottom navbar-dark bg-dark">

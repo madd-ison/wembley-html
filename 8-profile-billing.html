@@ -4,28 +4,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet" type="text/css" />
+
 
     <title>Wembley Park</title>
   </head>
   <body>
       <div class='container-fluid'>
 
-        <div class='row mb-5'>
-          <div class='col-4 offset-1'>
-            <h1>img</h1>
+        <div class='row mt-3'>
+          <div class='col-3'>
+            <span class='dot bg-primary'></span>
           </div>
-          <div class='col-6 d-flex flex-column'>
+          <div class='col-8 offset-1 d-flex flex-column'>
             <div>icon</div>
-            <div>user bio</div>
+            <p class='small'>This is a bio section. Artist can share 
+              very brief description.
+            </p>
           </div>
         </div>
 
-        <button class='btn btn-link'>Billing</button>
+      <button class='btn btn-link text-primary'>Billing</button>
 
-        <h5>Your Saved Cards</h5>
-        <div class='row mb-4'>
+        <h5 class='text-primary mt-3'>Your Saved Cards</h5>
+        <div class='row shadow mb-4'>
           <div class='col-4 offset-1'>
-            <h2>img</h2>
+            <h3 class='text-primary'>card</h3>
           </div>
           <div class='d-flex flex-column'>
             <div>Visa Master Card</div>
@@ -35,29 +39,32 @@
 
         <div class='row'>
           <div class='col-3 offset-9'>
-          <button class='btn btn-secondary'>Add</button>
+          <button class='btn btn-round btn-primary'>Add</button>
           </div>
         </div>
         <hr />
 
-        <h5>Your Current Plan</h5>
-        <div class='row mb-4'>
-          <div class='col'>
-            <h2>img</h2>
+        <h5 class='text-primary'>Your Current Plan</h5>
+        <div class='row shadow mb-4'>
+          <div class='col-4'>
+            <span class='dot bg-primary'></span>
           </div>
-          <div class='d-flex flex-column'>
+          <div class='col d-flex flex-column lh-tight'>
             <p>Plan</p>
-            <p>Current ?</p>
-            <p>next payment due:</p>
+            <p class='small'>Current ?</p>
+            <!-- TO DO: this can be smaller -->
+            <p class='small'>next payment due:</p>
           </div>
-          <div class='d-flex flex-column'>
+          <div class='col d-flex flex-column lh-tight'>
             <p>$$$</p>
-            <button class='btn btn-link'>View Invoice</button>
+            <!-- TO DO: this should be a btn/link -->
+            <p class='small text-primary'>View Invoice</p>
           </div>
         </div>
         <hr />
 
-        <div class='d-flex flex-column'>
+        <!-- TO DO: make sure this works w footer -->
+        <div class='d-flex flex-column mb-5 pb-3'>
           <h4>Eligible Deals</h4>
           <div>img // text overlay + link</div>
         </div>
