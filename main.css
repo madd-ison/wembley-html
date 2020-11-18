@@ -53,6 +53,30 @@
     background-color: transparent !important;
 }
 
+/*---------------------------
+ to be removed - use for visualizing col position
+---------------------------*/
+.view {
+    border: 2px solid black;
+}
+
+.border-rt {
+    border-right: 60px solid #E85232;
+}
+
+.line-b {
+    border-bottom: 3px solid #E85232;
+}
+.line-rt {
+    border-right: 3px solid #E85232;
+}
+.line-top {
+    border-top: 3px solid #E85232;
+}
+.line-l {
+    border-left: 3px solid #E85232;
+}
+
 /* --------------------------------
 to be replaced with images
 -----------------------------------*/
