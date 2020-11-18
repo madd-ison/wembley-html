@@ -1,9 +1,14 @@
 .bg {
     background-image: url(assets/background.png);
 }
+.btn {
+    border-radius: 20px !important;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
 
-.btn-round {
-    border-radius: 20px;
+.fs {
+    font-size: small;
 }
 
 .btn-light {
@@ -29,6 +34,11 @@
 .img-thumbnail {
     border: none !important;
     height: 30px;
+}
+
+.img-fluid {
+    min-height: 60px;
+    min-width: 60px;
 }
 
 .rotateimg {
