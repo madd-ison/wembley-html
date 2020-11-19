@@ -167,9 +167,18 @@ to be replaced with images
     display: inline-block;
 }
 
-.block-sm {
+.block-sm, .img-block {
     height: 110px;
     width: 110px;
+}
+
+.img-muted {
+    opacity: 70%;
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%); 
 }
 
 /*------------------------------------
