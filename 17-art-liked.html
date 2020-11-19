@@ -7,41 +7,43 @@
     <link href="main.css" rel="stylesheet" type="text/css" />
 
 
-
     <title>Wembley Park</title>
   </head>
   <body>
-      <div class='container-fluid'>
+    <div class='container-fluid'>
 
-        <div class='shadow no-gutters'>
-          <a href='#'>
-            <img src='assets/arrow-sm.png' />
-          </a>
-
-          <div class='col mt-3 text-center'>
-            <img src='assets/love-play-sm.png' />
+        <!-- img triggers modal -->
+      <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+          Launch demo modal
+      </button>
+        
+        <!-- img / title / artist, like/back to grid -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content pt-3">
+            <div class="modal-header">
+              <img src='assets/art.jpg' class='art image-fluid ml-auto mr-auto' />
+            </div>
+            <div class="modal-body">
+              <h5>Name of Artwork</h5>
+                <div class='d-flex flex-row'>
+                  <img src='assets/avatar-sm.png' class='img-thumbnail' />
+                  <span class='mt-1 small'>
+                      Name of Artist
+                  </span>
+                </div>
+            </div>
+            <div class="modal-footer pb-5 justify-content-around">
+              <img src='assets/liked-sm.png' class='img-fluid img-sm action' />
+              <img src='assets/view-sm.png' class='img-fuild img-sm action' data-dismiss='modal' />
+            </div>
           </div>
-
-          <div class='col text-center text-primary pb-2'>
-            <h4>Explore Wembley Park to 
-              <strong>Turn Up the Music!</strong>
-            </h4>
-          </div>
-
-          <div class='col ml-auto mr-auto'>
-          <p class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Duis nec elit ac leo ornare bibendum. Lorem ipsum dolor 
-            sit amet, consectetur adipiscing elit. Morbi dictum, dolor 
-            a hendrerit condimentum, justo tellus imperdiet ante, sit 
-            amet tincidunt massa mi vel sem.</p>
-          </div>
-
-          <h3 class='mt-5 mb-3 text-center'>Map goes here</h3>
-
         </div>
-
       </div>
+      
+        
 
+    </div>
 
         <nav class="navbar fixed-bottom navbar-dark bg-dark">
             <a class="navbar-brand" href="#">

@@ -4,67 +4,70 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet" type="text/css" />
+
 
     <title>Wembley Park</title>
   </head>
   <body>
       <div class='container-fluid'>
 
+        <div class='shadow no-gutters'>
+          <a href='#'>
+            <img src='assets/arrow-sm.png' />
+          </a>
+
+          <div class='col mt-3 text-center'>
+            <img src='assets/love-play-sm.png' />
+          </div>
+
+          <div class='col text-center text-primary pb-2'>
+            <h4>Explore Wembley Park to 
+              <strong>Turn Up the Music!</strong>
+            </h4>
+          </div>
+
+          <div class='col ml-auto mr-auto'>
+          <p class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Duis nec elit ac leo ornare bibendum. Lorem ipsum dolor 
+            sit amet, consectetur adipiscing elit. Morbi dictum, dolor 
+            a hendrerit condimentum, justo tellus imperdiet ante, sit 
+            amet tincidunt massa mi vel sem.</p>
+          </div>
+
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Launch demo popup
+          </button>
+        </div>
+
         <!-- prev view with modal -->
 
           <div>
-            <button class='btn btn-link'>Back</button>
-
-            <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
-              Launch demo modal
-            </button>
             
             <!-- img / title / artist, like/back to grid -->
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
-                  <div class="modal-header d-flex flex-column ml-auto mr-auto">
-                    <h5 class="modal-title" id="exampleModalLabel">Bravo!</h5>
-                    <h1>img</h1>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class='float-right text-primary'>&times;</span>
+                  </button>
+                  <div class="modal-header d-flex flex-column">
+                    <h5 class="modal-title text-primary ml-auto mr-auto" id="exampleModalLabel">BRAVO!</h5>
+                    <img src='assets/art.jpg' class='img-fluid art ml-auto mr-auto' />
                   </div>
                   <div class="modal-body d-flex flex-column text-center">
-                    <p>* Free bootcamp class at the Yellow</p>
+                    <p>* Free bootcamp class at 
+                      <span class='text-primary'>the Yellow</span>
+                    </p>
                     <h4 class='mt-3'>Turn It Up!</h4>
                     <p>Congrats, you've found a landmark!
                       You can find this landmark, along with its 
                       coupon on the main "Love" screen.
                     </p>
                   </div>
-                  <div class="modal-footer">
-                    <button class='btn btn-secondary'>Like</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  </div>
                 </div>
               </div>
             </div>
-  
-            <div class='col mt-5 text-center'>
-              <h1>img</h1>
-            </div>
-  
-            <div class='col text-center pb-2'>
-              <h4>Explore Wembley Park to 
-                <strong>Turn Up the Music!</strong>
-              </h4>
-            </div>
-  
-            <div class='col ml-auto mr-auto'>
-            <p class='small'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Duis nec elit ac leo ornare bibendum. Lorem ipsum dolor 
-              sit amet, consectetur adipiscing elit. Morbi dictum, dolor 
-              a hendrerit condimentum, justo tellus imperdiet ante, sit 
-              amet tincidunt massa mi vel sem.</p>
-            </div>
-  
-            <h3 class='mt-5 text-center'>Map goes here</h3>
-  
-          </div>
-  
         </div>
 
 
