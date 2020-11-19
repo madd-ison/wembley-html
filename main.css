@@ -99,10 +99,10 @@ a {
 .modal-footer {
     border-top: 0 none;
 }
-
+/* 
 .navbar {
     padding: inherit !important;
-}
+} */
 
 /*---------------------------
  to be removed - use for visualizing col position
