@@ -1,3 +1,8 @@
+a {
+    color: #E85232 !important;
+    text-decoration-line: none !important;
+}
+
 .bg {
     background-image: url(assets/background.png);
 }
