@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet" type="text/css" />
+
 
     <title>Wembley Park</title>
   </head>
@@ -19,21 +21,44 @@
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-                <button type="button" class="btn btn-secondary col-2" data-dismiss="modal">Close</button>
+              <div class='col-1'>
+                <img src='assets/arrow-sm.png' data-dismiss='modal' />
+              </div>
               <div class="modal-header">
-                <div class="modal-title ml-auto mr-auto">
-                  <h2>img</h2>
-                  <p>artist</p>
-                  <p>bio</p>
+                <div class="modal-title ml-auto mr-auto text-center">
+                  <span class='dot bg-primary mb-4'></span>
+                  <p class='small'>
+                    <img src='assets/avatar-sm.png' class='img-thumbnail' />
+                    artist
+                  </p>
+                  <p class='small'>This is a short artist bio.</p>
                 </div>
               </div>
               <div class="modal-body">
                 <!-- toggles view -->
-                <h1>FEED/Gallery Info</h1>
-                <p>title</p>
-                <p>hours</p>
-                <p>address</p>
-                <h3>map</h3>
+                <div class='d-flex flex-row text-primary justify-content-around pb-3'>
+                  <div class='col-6 text-center'>
+                    <h4 class='text-muted'>FEED</h4>
+                  </div>
+                  <div class='col-6 text-center line-b'>
+                    <h4>Gallery Info</h4>
+                  </div>
+              </div>
+              <div class='mt-3'>
+                  <p class='small'>
+                    <img src='assets/favo-sm.png' class='img-thumbnail'/>
+                    "The Most Amazing Gallery Ever"
+                  </p>
+                  <p class='small'>
+                    <img src='assets/time-sm.png' class='img-thumbnail' />
+                    Mon-Fri 2:30 to 5:30pm 
+                  </p>
+                  <p class='small'>
+                    <img src='assets/loc-sm.png' class='img-thumbnail' />
+                    1012 Greenville dr, North London 07543
+                  </p>
+                  <h3>map</h3>
+              </div>
               </div>
               <div class="modal-footer">
               </div>

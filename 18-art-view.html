@@ -23,18 +23,28 @@
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class='col-1'>
-                <img src='assets/arrow-sm.png' class='img-thumnail' />
+                <img src='assets/arrow-sm.png' data-dismiss='modal'/>
               </div>
               <div class="modal-header">
-                <div class="modal-title ml-auto mr-auto">
-                  <h2>img</h2>
-                  <p>artist</p>
-                  <p>bio</p>
+                <div class="modal-title ml-auto mr-auto text-center">
+                  <span class='dot bg-primary mb-4'></span>
+                  <p class='small'>
+                    <img src='assets/avatar-sm.png' class='img-thumbnail' />
+                    artist
+                  </p>
+                  <p class='small'>This is a short artist bio.</p>
                 </div>
               </div>
               <div class="modal-body">
                 <!-- toggles view -->
-                <h1>FEED/Gallery Info</h1>
+              <div class='d-flex flex-row text-primary justify-content-around'>
+                  <div class='col-6 text-center line-b'>
+                    <h4>FEED</h4>
+                  </div>
+                  <div class='col-6 text-center'>
+                    <h4 class='text-muted'>Gallery Info</h4>
+                  </div>
+              </div>
                 <p>grid goes here</p>
               </div>
               <div class="modal-footer">
