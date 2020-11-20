@@ -92,6 +92,12 @@ a {
     border-radius: 50%;
 }
 
+.profile-lg {
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    display: inline-block;
+}
 
 .nav-link {
     color: #000;
@@ -204,13 +210,6 @@ to be replaced with images
 .dot {
     height: 85px;
     width: 85px;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-.dot-lg {
-    height: 115px;
-    width: 115px;
     border-radius: 50%;
     display: inline-block;
 }
