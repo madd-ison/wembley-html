@@ -23,6 +23,10 @@ a {
     padding-bottom: 1px;
 }
 
+.btn-lg {
+    padding: 10px 30px;  
+}
+
 .fs {
     font-size: small;
 }
