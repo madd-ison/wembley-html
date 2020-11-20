@@ -129,6 +129,10 @@ a {
     border-right: 60px solid #E85232;
 }
 
+.line-hr {
+    border-bottom: 1px solid #E85232;
+}
+
 .line-b {
     border-bottom: 3px solid #E85232;
 }
