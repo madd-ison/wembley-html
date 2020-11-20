@@ -68,6 +68,11 @@ a {
     max-width: 80px;
 }
 
+.img-md {
+    height: auto;
+    width: 60%;
+}
+
 .art {
     border-radius: 10px;
     max-height: 300px;
