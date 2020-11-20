@@ -161,6 +161,13 @@ a {
     border-left: 3px solid #E85232;
 }
 
+.blk-b {
+    border-bottom: 3px solid #000;
+}
+.blk-l {
+    border-left: 3px solid #000;
+}
+
 .masonry { /* Masonry container */
     -webkit-column-count: 3;
     -moz-column-count:3;
