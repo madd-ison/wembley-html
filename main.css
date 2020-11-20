@@ -92,11 +92,16 @@ a {
     border-radius: 50%;
 }
 
-.profile-lg {
+.profile {
     height: 115px;
     width: 115px;
     border-radius: 50%;
-    display: inline-block;
+}
+
+.profile-lg {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 .nav-link {
