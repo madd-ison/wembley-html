@@ -99,6 +99,19 @@ a {
 .modal-footer {
     border-top: 0 none;
 }
+
+.rotate {
+    display: block;
+    padding: 25px;
+    transform: rotate(90deg);
+    float: right;
+    position: fixed;
+    -webkit-transform:
+    rotateZ(90deg) rotateX(180deg) rotateY(-180deg)
+    scale(-1,-1) 
+    translate3d(100%,100%,0);
+    transform-origin: 100% 100%;
+} 
 /* 
 .navbar {
     padding: inherit !important;
