@@ -40,6 +40,10 @@ a {
     padding: 0px;
 }
 
+.card {
+    border: none !important;
+}
+
 .shadow {
     border-radius: 25px;
     box-shadow: 3px 3px 3px #3d3c3c;
