@@ -142,10 +142,11 @@ a {
     translate3d(100%,100%,0);
     transform-origin: 100% 100%;
 } 
-/* 
+
 .navbar {
-    padding: inherit !important;
-} */
+    padding: .9rem 1rem !important;
+    background-color: #0A1B2B !important;
+}
 
 /*---------------------------
  to be removed - use for visualizing col position
@@ -220,8 +221,8 @@ to be replaced with images
 }
 
 .dot-sm {
-    height: 60px;
-    width: 60px;
+    height: 77px;
+    width: 77px;
     border-radius: 50%;
     display: inline-block;
 }
