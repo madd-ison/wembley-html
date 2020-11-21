@@ -4,63 +4,70 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet" type="text/css" />
+
 
     <title>Wembley Park</title>
   </head>
-  <body>
-      <!-- these are rounded imgs -->
-      <!-- add hover effect - expand -->
-    <nav class="navbar navbar-light">
-      <form class="form-inline d-flex justify-content-between">
-        <div class='col-2 offset-2'>
-          <button class="btn btn-sm btn-outline-secondary" type="button">1</button>
-        </div>
-        <div class='col-2'>
-          <button class="btn btn-sm btn-outline-secondary" type="button">1</button>
-        </div>
-        <div class='col-2'>
-          <button class="btn btn-sm btn-outline-secondary" type="button">1</button>
-        </div>
-        <div class='col-2'>
-          <button class="btn btn-sm btn-outline-secondary" type="button">1</button>
-        </div>
-        <div class='col-2'>
-          <button class="btn btn-sm btn-outline-secondary" type="button">1</button>
-        </div>
-      </form>
-    </nav>
-      <div class='container-fluid mt-5'>
+  <body class='bg-map'>
 
-        <!-- map -->
-
-        <!-- align vertically bottom right corner above navbar-->
-        <div class='fixed-bottom mb-5 d-flex flex-column align-items-end'>
-          <div class='p-2'>legend</div>
-          <div class='p-2'>legend</div>
-          <div class='p-2 mb-5'>legend</div>
-      </div>
-
-
-      </div>
-
-      <!-- TO DO replace w correct icons -->
-      <nav class="navbar fixed-bottom navbar-dark bg-dark">
-        <a class="navbar-link" href="#">
-          <img src='icons/instagram.svg' />
+    <ul class="nav d-flex flex-row justify-content-around">
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <img src='assets/group-sm.png' class='img-thumbnail img-round'/>
         </a>
-          |
-        <a class="navbar-link" href="#">
-          <img src='icons/instagram.svg' />
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <img src='assets/group-sm.png' class='img-thumbnail img-round'/>
         </a>
-          |
-        <a class="navbar-link" href="#">
-          <img src='icons/instagram.svg' />
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <img src='assets/group-sm.png' class='img-thumbnail img-round'/>
         </a>
-          |
-        <a class="navbar-link" href="#">
-          <img src='icons/instagram.svg' />
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <img src='assets/group-sm.png' class='img-thumbnail img-round'/>
         </a>
-      </nav>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <img src='assets/group-sm.png' class='img-thumbnail img-round'/>
+        </a>
+      </li>
+    </ul>
+  
+          <!-- map -->
+  
+          <!-- align vertically bottom right corner above navbar-->
+          <div class='fixed-bottom mb-5 d-flex flex-column align-items-end'>
+            <span class='bg-light pt-3 pb-3 p-2 mb-2 art'>legend</span>
+            <span class='bg-light pt-3 pb-3 p-2 mb-2 art'>legend</span>
+            <span class='bg-light pt-3 pb-3 p-2 p-2 mb-5 art'>legend</span>
+        </div>
+  
+  
+  
+        <!-- TO DO replace w correct icons -->
+        <nav class="navbar fixed-bottom text-muted">
+          <a class="navbar-link" href="#">
+            <img src='icons/globe.svg' />
+          </a>
+            |
+          <a class="navbar-link" href="#">
+            <img src='icons/globe.svg' />
+          </a>
+            |
+          <a class="navbar-link" href="#">
+            <img src='icons/globe.svg' />
+          </a>
+            |
+          <a class="navbar-link" href="#">
+            <img src='icons/globe.svg' />
+          </a>
+        </nav>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
