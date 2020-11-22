@@ -273,6 +273,24 @@ to be replaced with images
             filter: grayscale(100%); 
 }
 
+.deal {
+    position: relative;
+    text-align: center;
+    opacity: 75%;
+}
+.btn-deal {
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
+}
+.deal-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
 /*------------------------------------
  - COLOR primary
  ------------------------------------*/
