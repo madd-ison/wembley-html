@@ -4,7 +4,6 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-
 a {
     color: #E85232 !important;
     text-decoration-line: none !important;
@@ -96,12 +95,14 @@ a {
     border-radius: 50%;
 }
 
+/* img sizing for profile views (375 x 812 mobile) */
 .profile {
     height: 115px;
     width: 115px;
     border-radius: 50%;
 }
 
+/* img sizing for modal profile photos (375 x 812 mobile) */
 .profile-lg {
     height: 200px;
     width: 200px;
@@ -116,6 +117,7 @@ a {
     color: #000;
 }
 
+/* sign up / edit profile forms */
 .input-b {
     border: none !important;
     border-bottom: 2px solid #E85232 !important;
@@ -134,6 +136,7 @@ a {
     border-top: 0 none;
 }
 
+/* for view #3 - welcome page */
 .rotate {
     display: block;
     padding: 25px;
@@ -159,6 +162,10 @@ a {
     border: 2px solid black;
 }
 /*---------------------------*/
+
+/*----------------------------
+ also for design purposes, not sure if permanent
+-----------------------------*/
 
 .border-rt {
     border-right: 60px solid #E85232;
@@ -194,6 +201,28 @@ a {
     border-right: 3px solid #000;
 }
 
+/* --------------------------------
+to be replaced with images
+-----------------------------------*/
+.dot {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-sm {
+    height: 77px;
+    width: 77px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.block-sm, .img-block {
+    height: 110px;
+    width: 110px;
+}
+
 .masonry { /* Masonry container */
     -webkit-column-count: 3;
     -moz-column-count:3;
@@ -220,28 +249,6 @@ a {
 .item img{
     width: 100%; 
     height: auto;
-}
-
-/* --------------------------------
-to be replaced with images
------------------------------------*/
-.dot {
-    height: 85px;
-    width: 85px;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-.dot-sm {
-    height: 77px;
-    width: 77px;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-.block-sm, .img-block {
-    height: 110px;
-    width: 110px;
 }
 
 .img-muted {
