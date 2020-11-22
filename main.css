@@ -33,6 +33,9 @@ a {
 .fs {
     font-size: small;
 }
+.fxs {
+    font-size: x-small;
+}
 
 .btn-light {
     border-color: #3d3c3c;
