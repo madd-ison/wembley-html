@@ -218,6 +218,19 @@ to be replaced with images
     display: inline-block;
 }
 
+.green {
+    background-color: #00FF31;
+    opacity: 50%;
+}
+.yellow {
+    background-color: #FFF500;
+    opacity: 50%;
+}
+.red {
+    background-color: #FF1400;
+    opacity: 50%;
+}
+
 .block-sm, .img-block {
     height: 110px;
     width: 110px;
