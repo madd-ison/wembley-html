@@ -244,16 +244,12 @@ to be replaced with images
     -moz-column-count:3;
     column-count: 3;
     -webkit-column-gap: 1em;
-    -moz-column-gap: 1em;
-    margin: .5em;
-    padding: 0;
+    -moz-column-gap: .5em;
     -moz-column-gap: 1.5em;
     -webkit-column-gap: 1.5em;
-    column-gap: .3em;
-    font-size: .85em;
+    column-gap: 0em;
 }
 .item {
-    display: inline-block;
     padding: 0 .5em .5em;
     width: 100%;
     transition: 1s ease all;
@@ -263,8 +259,8 @@ to be replaced with images
     -webkit-box-sizing: border-box;
 }
 .item img{
-    width: 100%; 
-    height: auto;
+    width: 100% !important; 
+    height: auto !important;
 }
 
 .img-muted {
@@ -352,3 +348,8 @@ a.text-primary:hover, a.text-primary:focus {
     text-decoration-line: none;
 }
   
+@media screen and (max-width: 374px) {
+    #vertical {
+        display: none;
+    }
+}
