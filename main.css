@@ -262,6 +262,7 @@ to be replaced with images
 .item img{
     width: 100% !important; 
     height: auto !important;
+    border-radius: 10px;
 }
 
 .img-muted {
@@ -352,5 +353,11 @@ a.text-primary:hover, a.text-primary:focus {
 @media screen and (max-width: 374px) {
     #vertical {
         display: none;
+    }
+    #deal {
+        font-size: small;
+    }
+    #love {
+        flex-direction: row;
     }
 }
