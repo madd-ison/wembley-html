@@ -248,6 +248,7 @@ to be replaced with images
     -moz-column-gap: 1.5em;
     -webkit-column-gap: 1.5em;
     column-gap: 0em;
+    flex-wrap: wrap;
 }
 .item {
     padding: 0 .5em .5em;
