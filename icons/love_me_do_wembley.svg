@@ -6,11 +6,11 @@
 	.st0{fill:#E85232;}
 	.st1{font-family:'SFProDisplay-Regular';}
 	.st2{font-size:21px;}
-	.st3{font-family:'RobotoMono-Medium';}
-	.st4{font-size:76px;}
+	.st3{font-family: 'Roboto Mono';}
+	.st4{font-size:65px;}
 </style>
 <g id="Group_1129" transform="translate(-188 5)">
 	<text transform="matrix(1 0 0 1 190.7607 54.8603)" class="st0 st1 st2">LOVE ME</text>
-	<text transform="matrix(1 0 0 1 272.7607 55.8603)" class="st0 st3 st4">DO</text>
+	<text transform="matrix(1 0 0 1 272.7607 55.8603)" class="st0 st1 st4">DO</text>
 </g>
 </svg>
