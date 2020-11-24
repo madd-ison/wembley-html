@@ -351,13 +351,19 @@ a.text-primary:hover, a.text-primary:focus {
 }
   
 @media screen and (max-width: 374px) {
-    #vertical {
-        display: none;
-    }
-    #deal {
-        font-size: small;
-    }
     #love {
         flex-direction: row;
+    }
+    .hide-sm {
+        display: none;
+    }
+    .no-border {
+        border: none;
+    }
+    .shrink {
+        font-size: small;
+    }
+    .shrink-x {
+        font-size: x-small;
     }
 }
