@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
-@font-face {
-    font-family: SF-Pro;
-    src: url(sf-pro.ttf);
-  }
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 a {
     color: #E85232 !important;
