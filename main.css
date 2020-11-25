@@ -4,10 +4,6 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.rm {
-    font-family: Roboto Mono, monospace;
-}
-
 a {
     color: #E85232 !important;
     text-decoration-line: none !important;
@@ -162,6 +158,19 @@ a {
     background-color: #0A1B2B !important;
 }
 
+.map-hover {
+    background-color: #fafafa;
+    padding: 3px 20px;
+    border-radius: 25px;
+}
+
+.map-clicked {
+    background-color: #E85232;
+    padding: 3px 20px;
+    border-radius: 25px;
+    color: #fff;
+}
+
 /*---------------------------
  to be removed - use for visualizing col position
 ---------------------------*/
@@ -237,8 +246,7 @@ to be replaced with images
     background-color: #FF1400;
     opacity: 50%;
 }
-
-.block-sm, .img-block {
+.img-block {
     height: 103px;
     width: 103px;
 }
@@ -369,5 +377,9 @@ a.text-primary:hover, a.text-primary:focus {
     }
     .shrink-x {
         font-size: x-small;
+    }
+    .img-block {
+        height: 80px;
+        width: 80px;
     }
 }
