@@ -154,7 +154,7 @@ a {
 } 
 
 .navbar {
-    padding: .9rem 1rem !important;
+    padding: .8rem 1rem !important;
     background-color: #0A1B2B !important;
 }
 
@@ -235,15 +235,15 @@ to be replaced with images
 }
 
 .green {
-    background-color: #00FF31;
+    color: #00FF31;
     opacity: 50%;
 }
 .yellow {
-    background-color: #FFF500;
+    color: #FFF500;
     opacity: 50%;
 }
 .red {
-    background-color: #FF1400;
+    color: #FF1400;
     opacity: 50%;
 }
 .img-block {
