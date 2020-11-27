@@ -362,6 +362,7 @@ a.text-primary:hover, a.text-primary:focus {
     text-decoration-line: none;
 }
   
+/* special xs size tweaks for iphone 5 */
 @media screen and (max-width: 374px) {
     #love {
         flex-direction: row;
@@ -381,5 +382,10 @@ a.text-primary:hover, a.text-primary:focus {
     .img-block {
         height: 80px;
         width: 80px;
+    }
+    #profile-320 {
+        height: 115px !important;
+        width: 115px !important;
+        border-radius: 50%;
     }
 }
