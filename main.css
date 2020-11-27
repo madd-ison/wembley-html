@@ -394,7 +394,7 @@ a.text-primary:hover, a.text-primary:focus {
         height: 80px;
         width: 80px;
     }
-    #profile-320 {
+    .profile-320 {
         height: 115px !important;
         width: 115px !important;
         border-radius: 50%;
