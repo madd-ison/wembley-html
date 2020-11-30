@@ -127,8 +127,14 @@ a {
     background-color: transparent !important;
 }
 
+/* squared inputs to work w bottom border */
 .input-sq {
     border-radius: 0px !important;
+}
+
+/* rounded input (welcome page - newsletter sign up) */
+.input-r {
+    border-radius: 25px !important;
 }
 
 .modal-header {
