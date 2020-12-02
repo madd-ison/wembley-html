@@ -462,7 +462,7 @@ a.text-primary:hover, a.text-primary:focus {
     }
 }
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 736px) {
     .hide-md {
         display: none;
     }
@@ -478,5 +478,9 @@ a.text-primary:hover, a.text-primary:focus {
     }
 }
 
-@media screen and (min-height: 800px) {
+@media screen and (min-width: 800px) {
+    .title-img {
+        max-width: 557px;
+        max-height: 181px;
+    }
 }
