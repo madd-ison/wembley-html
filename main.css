@@ -445,6 +445,21 @@ a.text-primary:hover, a.text-primary:focus {
     }
 }
 
+@media screen and (max-width: 767px) {
+    .horizontal-hide {
+        display: none !important;
+    }
+}
+
+@media screen and (max-height: 414px) {
+    .pull-left {
+        padding-right: 30px !important; 
+    }
+    .flip-border {
+        display: none !important;
+    }
+}
+
 /* iphone 6/7/8 excludes Samsung phones */
 @media screen and (min-height: 375px) and (height: 667px) {
     .rm-pt {
@@ -458,6 +473,7 @@ a.text-primary:hover, a.text-primary:focus {
     }
 }
 
+/* flip-border - removes orange footer on horizontal mobile screens */
 @media screen and (max-width: 567px) {
     .flip-nav {
         display: none !important;
@@ -483,12 +499,7 @@ a.text-primary:hover, a.text-primary:focus {
     .flip-border {
         border-bottom: 60px solid #E85232;
     }
-    .y {
-        vertical-align: middle;
-        height: 100% !important;
-    }
 }
-
 
 @media screen and (max-height: 736px) {
     .hide-md {
