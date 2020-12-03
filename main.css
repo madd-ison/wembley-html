@@ -478,6 +478,9 @@ a.text-primary:hover, a.text-primary:focus {
     }
 }
 
+@media screen and (min-width: 768px) {
+}
+
 @media screen and (min-width: 800px) {
     .title-img {
         max-width: 557px;
