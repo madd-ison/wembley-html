@@ -39,6 +39,11 @@ a {
     padding: 0px;
 }
 
+.container-fluid {
+    height: 100vh !important;
+}
+
+
 .fxs {
     font-size: x-small;
 }
@@ -240,8 +245,11 @@ h5 {
 .blk-top {
     border-top: 3px solid #000;
 }
+
+/* black border on create account/sign in screens */
 .blk-rt {
     border-right: 3px solid #000;
+    height: 100%;
 }
 
 /* --------------------------------
@@ -563,6 +571,10 @@ a.text-primary:hover, a.text-primary:focus {
     .border-rt {
         border: none !important;
     }
+    /* .card {
+        width: 90vw !important;
+        height: 90vh !important;
+    } */
 }
 
 @media screen and (max-height: 736px) {
