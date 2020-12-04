@@ -12,8 +12,8 @@
   <body>
       <div class='card mx-1 pt-2'>
 
-        <div class='card-body shadow col-md d-md-flex pt-2 pb-4 mt-3'>
-          <div class='col-md-6 px-0 d-flex flex-column'>
+        <div class='card-body shadow col-md d-md-flex mx-auto pt-2 pb-4 mt-3'>
+          <div class='col-md px-0 d-flex flex-column pr-md-5'>
           <div class='row'>
             <div class='col-4 ml-3 pl-1'>
               <img src='assets/profile-photo.jpg' alt='profile photo' class='profile' />
@@ -37,7 +37,7 @@
             </a>
           </div>
 
-        <h6 class='text-primary pl-2 mt-5 rm-mt shrink'>Your Saved Cards</h6>
+        <h5 class='text-primary pl-2 mt-5 rm-mt shrink'>Your Saved Cards</h5>
         <div class='col-sm d-flex flex-row justify-content-between shadow mb-3 pt-0 pb-1'>
           <div class='col-3 text-center pl-1 mt-2'>
             <h4 class='text-primary'>card</h4>
@@ -62,8 +62,8 @@
         </div>
 
 
-        <div class='col-md-6 px-1 d-flex flex-column'>
-          <h6 class='text-primary pl-2 shrink'>Your Current Plan</h6>
+        <div class='col-md px-1 d-flex flex-column pr-md-5'>
+          <h5 class='text-primary pl-2 shrink'>Your Current Plan</h5>
           <div class='shadow col-md px-0 mb-3'>
               <div class='mb-2'>
                 <a href='#'>
@@ -74,12 +74,12 @@
                 <div class='col-3 pl-2'>
                   <img src='icons/plan.svg' alt='plan icon' />
                 </div>
-                <div class='col-5 px-0 mt-2 d-flex flex-column lh-tight'>
+                <div class='col-5 px-0 mt-2 d-flex flex-column'>
                   <p class='shrink'>Platinum Plan</p>
                   <p class='small text-muted mb-0'>Current</p>
                   <p class='fxs text-muted'>next payment due:</p>
                 </div>
-                <div class='col-4 px-0 d-flex flex-column lh-tight'>
+                <div class='col-4 px-0 d-flex flex-column'>
                   <p class='text-center my-2'><b>$25.72</b></p>
                   <a href='#' class='text-primary text-center fxs'>View Invoice</a>
                 </div>
@@ -87,10 +87,9 @@
             </div>
         <hr />
 
-        <!-- TO DO: make sure this works w footer -->
         <div class='d-flex flex-column mb-4'>
-          <h6 class='text-primary pl-2 mb-2 shrink'>Eligible Deals</h6>
-          <div class='row deal'>
+          <h5 class='text-primary pl-2 mb-2 shrink'>Eligible Deals</h5>
+          <div class='col-md deal'>
             <img src='assets/deal.jpg' alt='deals' class='mx-auto art'/>
             <div class='col-9 deal-text'>
               <h5 class='mt-2 shrink'>Save 15% on Winterfest
@@ -109,7 +108,7 @@
       </div>
     </div>
         <!-- TO DO replace w correct icons -->
-        <nav class="navbar fixed-bottom d-flex flex-row justify-content-around text-muted">
+        <nav class="navbar fixed-nav fixed-bottom d-flex flex-row justify-content-around text-muted">
           <a class="navbar-link px-0" href="#">
             <img src='icons/globe.svg' alt='placeholder'/>
           </a>
@@ -126,6 +125,25 @@
             <img src='icons/avatar-wht.svg' alt='profile'/>
           </a>
         </nav>
+        <!-- nav for lg screens - TO DO see if these can be combined-->
+        <!-- make icons responsive -->
+        <nav class="navbar flip-nav d-flex flex-column justify-content-start text-muted">
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link px-0" href="#">
+            <img src='icons/avatar-wht.svg' alt='profile'/>
+          </a>
+        </nav>
+        <footer class='fixed-bottom flip-border horizontal-hide'>
+          <h3 class='pl-5 text-light fixed-bottom'><img src='icons/globe.svg' alt='globe'/><small class='ml-2 fs'>  Visit</small>WembleyPark.com</h3>
+        </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

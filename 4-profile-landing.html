@@ -12,7 +12,7 @@
       <div class='card mx-1 pt-2'>
 
         <div class='card-body shadow col-md d-md-flex pt-2 pb-4 mt-3'>
-          <div class='col-md-6 px-0 d-flex flex-column'>
+          <div class='col-md px-0 d-flex flex-column'>
           <div class='col p-0 d-flex flex-row'>
             <div class='col-4 pl-1'>
               <img src='assets/profile-photo.jpg' alt='profile photo' class='profile' />
@@ -30,11 +30,11 @@
             </div>
           </div>
 
-          <div class='col d-flex flex-row shadow align-items-center mt-5 rm-mt px-0'>
+          <div class='col d-flex flex-row shadow align-items-center mt-5 rm-mt px-0 pr-md-5'>
             <div class='col-4'>
               <span class='dot-sm bg-primary'></span>
             </div>
-            <div class='col-8 d-flex flex-column lh-tight mt-2'>
+            <div class='col-8 d-flex flex-column mt-2'>
               <h5 class='text-primary mb-1'>Connected</h5>
               <p class='small shrink-x text-primary my-0'>Name of Device very long</p>
               <p class='small shrink-x'>Network Name</p>
@@ -42,8 +42,8 @@
           </div>
         </div>
 
-        <div class='col-md-6 d-flex flex-column'>
-          <ul class="nav flex-column mb-3 lh-tight">
+        <div class='col-md d-flex flex-column'>
+          <ul class="nav flex-column mb-3">
               <li class="nav-item mt-2">
                 <a class="nav-link d-flex pr-0 flex-row no-gutters" href="#">
                   <img src='icons/profile-lg.svg' alt='profile icon'/>
@@ -97,7 +97,7 @@
       </div>
         
         <!-- TO DO replace w correct icons -->
-        <nav class="navbar fixed-bottom d-flex flex-row justify-content-around text-muted">
+        <nav class="navbar fixed-nav fixed-bottom d-flex flex-row justify-content-around text-muted">
           <a class="navbar-link px-0" href="#">
             <img src='icons/globe.svg' alt='placeholder'/>
           </a>
@@ -114,6 +114,25 @@
             <img src='icons/avatar-wht.svg' alt='profile'/>
           </a>
         </nav>
+        <!-- nav for lg screens - TO DO see if these can be combined-->
+        <!-- make icons responsive -->
+        <nav class="navbar flip-nav d-flex flex-column justify-content-start text-muted">
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link px-0" href="#">
+            <img src='icons/avatar-wht.svg' alt='profile'/>
+          </a>
+        </nav>
+        <footer class='fixed-bottom flip-border horizontal-hide'>
+          <h3 class='pl-5 text-light fixed-bottom'><img src='icons/globe.svg' alt='globe'/><small class='ml-2 fs'>  Visit</small>WembleyPark.com</h3>
+        </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
