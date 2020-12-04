@@ -12,7 +12,7 @@
   <body class='bg-basic'>
       <div class='container-fluid col-md d-md-flex'>
 
-          <div class='col-md-6 px-0 d-flex flex-column'>
+          <div class='col-md-6 mx-auto mt-lg-5 pt-md-5 px-0 d-flex flex-column '>
 
             <div class='row shadow pt-0 no-gutters'>
               <div class='col-5 pt-5'>
@@ -39,25 +39,40 @@
             </div>
         </div>
 
-        <div class='col-md-6 px-1 d-flex flex-column'>
-        <div class='row d-flex mt-4 mb-5 justify-content-around'>
-          <img src='assets/art.jpg' alt='art' class='img-muted art img-block' />
-          <img src='assets/art.jpg' alt='art' class='img-muted art img-block' />
-          <img src='assets/art.jpg' alt='art' class='img-muted art img-block' />
-        </div>  
-        <div class='row d-flex mt-3 mb-5 justify-content-around'>
-          <img src='assets/art.jpg' alt='art' class='img-muted art img-block' />
-          <img src='assets/art.jpg' alt='art' class='img-muted art img-block' />
-          <img src='assets/art.jpg' alt='art' class='img-muted art img-block' />
-        </div>
-        <div class='row d-flex mt-3 justify-content-around'>
-          <img src='assets/art.jpg' alt='art' class='img-muted art img-block' />
-          <img src='assets/art.jpg' alt='art' class='img-muted art img-block' />
-          <img src='assets/art.jpg' alt='art' class='img-muted art img-block' />
-        </div>
+        <div class='col-md my-3 mt-md-5 pt-lg-5 pl-1 pr-md-5 d-flex flex-column'>
+          <div class="masonry">
+            <div class="item">
+              <img src='assets/art.jpg' alt='art' class='art img-muted img-fluid' />  
+            </div>
+            <div class="item">
+              <img src='assets/art.jpg' alt='art' class='art img-muted img-fluid' />  
+            </div>
+            <div class="item">
+              <img src='assets/art.jpg' alt='art' class='art img-muted img-fluid' />  
+            </div>
+            <div class='w-100'></div>
+            <div class="item">
+              <img src='assets/art.jpg' alt='art' class='art img-muted img-fluid' />  
+            </div>
+            <div class="item">
+              <img src='assets/art.jpg' alt='art' class='art img-muted img-fluid' />  
+            </div>
+            <div class="item">
+              <img src='assets/art.jpg' alt='art' class='art img-muted img-fluid' />  
+            </div>
+            <div class="item">
+              <img src='assets/art.jpg' alt='art' class='art img-muted img-fluid' />  
+            </div>
+            <div class="item">
+              <img src='assets/art.jpg' alt='art' class='art img-muted img-fluid' />  
+            </div>
+            <div class="item">
+              <img src='assets/art.jpg' alt='art' class='art img-muted img-fluid' />  
+            </div>
+          </div>
 
         <!-- fixed-bottom footer height / push content up on small screens -->
-          <div>
+          <div class='hide-md'>
             <div class='row py-5'></div>
           </div>
         </div>
@@ -65,7 +80,7 @@
       </div>
 
         <!-- TO DO replace w correct icons -->
-        <nav class="navbar fixed-bottom d-flex flex-row justify-content-around text-muted">
+        <nav class="navbar fixed-nav fixed-bottom d-flex flex-row justify-content-around text-muted">
           <a class="navbar-link px-0" href="#">
             <img src='icons/globe.svg' alt='placeholder'/>
           </a>
@@ -82,6 +97,25 @@
             <img src='icons/avatar-wht.svg' alt='profile'/>
           </a>
         </nav>
+        <!-- nav for lg screens - TO DO see if these can be combined-->
+        <!-- make icons responsive -->
+        <nav class="navbar flip-nav d-flex flex-column justify-content-start text-muted">
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link px-0" href="#">
+            <img src='icons/avatar-wht.svg' alt='profile'/>
+          </a>
+        </nav>
+        <footer class='fixed-bottom flip-border horizontal-hide'>
+          <h3 class='pl-5 text-light fixed-bottom'><img src='icons/globe.svg' alt='globe'/><small class='ml-2 fs'>  Visit</small>WembleyPark.com</h3>
+        </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
