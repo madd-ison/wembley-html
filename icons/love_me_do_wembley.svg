@@ -6,7 +6,7 @@
 	.st0{fill:#E85232;}
 	.st1{font-family:'SFProDisplay-Regular';}
 	.st2{font-size:21px;}
-	.st3{font-family:'Roboto Mono';}
+	.st3{font-family:'Roboto Mono', monospace;}
 	.st4{font-size:65px;}
 </style>
 <g id="Group_1129" transform="translate(-188 5)">
