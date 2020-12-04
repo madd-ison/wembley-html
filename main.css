@@ -560,6 +560,9 @@ a.text-primary:hover, a.text-primary:focus {
     .love-item {
         padding: 1em .2em 5em .2em;
     }
+    .border-rt {
+        border: none !important;
+    }
 }
 
 @media screen and (max-height: 736px) {

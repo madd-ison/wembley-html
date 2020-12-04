@@ -12,7 +12,7 @@
     
     <div class='container-fluid col-md d-md-flex pb-5 align-items-md-center'>
       
-      <div class='col-md-6 px-0 d-flex flex-column'>
+      <div class='col-md px-0 d-flex flex-column'>
 
       <div class='col px-0 pt-4 rotate vertical'>
         <h2 class='text-light'><img src='icons/globe.svg' alt='globe'/><small class='ml-2 fs'>  Visit</small>WembleyPark.com</h2>
@@ -29,9 +29,9 @@
           <span class='col-6 line-l pt-5'></span>
       </div>
 
-      <div class='row mb-3'>
+      <div class='row mb-3 pr-md-3'>
         <div class='col-2 line-b'></div>
-        <div class='col-10 col-sm-8 col-md-6 line-l pl-0 py-2'>
+        <div class='col-10 line-l pl-0 py-2'>
             <img src='icons/wembley.svg' alt='Wembley Park' class='img-fluid'/>
           </div>
       </div>
@@ -43,9 +43,10 @@
         </div>
       </div>
 
-      <div class='col-md-6 d-flex flex-column'>
+      <div class='col-md d-flex flex-column'>
 
-        <div class='row'>
+        <!-- TO DO 'welcome to wembley' font size -->
+        <div class='row pr-md-3'>
           <div class='col-9 ml-3 pl-0 line-b line-rt'>
             <span class='text-primary align-text-bottom shrink lh-tight'>Welcome to Wembley Park</span>
           </div>
@@ -54,7 +55,7 @@
           </div>
         </div>
 
-        <div class='row'>
+        <div class='row pr-md-3'>
           <p class='col small shrink-x'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Duis nec elit ac leo ornare bibendum. Lorem ipsum dolor 
           sit amet, consectetur adipiscing elit. Morbi dictum, dolor 
@@ -81,7 +82,7 @@
           </div>
         </form>
 
-        <div class='row d-flex flex-row pb-4 justify-content-around'>
+        <div class='row d-flex flex-row pb-4 justify-content-around pr-md-3'>
           <!-- TO DO replace -->
           <img src='icons/facebook.svg' alt='Open Twitter'/>
           <img src='icons/facebook.svg' alt='Open Facebook'/>
@@ -94,7 +95,7 @@
       </div>
 
         <!-- TO DO replace w correct icons -->
-        <nav class="navbar fixed-bottom d-flex flex-row justify-content-around text-muted">
+        <nav class="navbar fixed-nav fixed-bottom d-flex flex-row justify-content-around text-muted">
           <a class="navbar-link px-0" href="#">
             <img src='icons/globe.svg' alt='placeholder'/>
           </a>
@@ -108,9 +109,29 @@
           </a>
           |
           <a class="navbar-link px-0" href="#">
-            <img src='icons/avatar-wht.svg' alt='Profile'/>
+            <img src='icons/avatar-wht.svg' alt='profile'/>
           </a>
         </nav>
+        <!-- nav for lg screens - TO DO see if these can be combined-->
+        <!-- make icons responsive -->
+        <nav class="navbar flip-nav d-flex flex-column justify-content-start text-muted">
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link px-0" href="#">
+            <img src='icons/avatar-wht.svg' alt='profile'/>
+          </a>
+        </nav>
+        <footer class='fixed-bottom flip-border horizontal-hide'>
+          <h3 class='pl-5 text-light fixed-bottom'><img src='icons/globe.svg' alt='globe'/><small class='ml-2 fs'>  Visit</small>WembleyPark.com</h3>
+        </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
