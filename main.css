@@ -42,10 +42,22 @@ a {
 .fxs {
     font-size: x-small;
 }
-/* TO DO - find better way to make responsive on larger screens ? */
+.rm {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* TO DO - better way to make responsive on larger screens ? */
+/* p sizing for lg screens in 1024 media query */
+h3 {
+    font-size: calc(1.4rem + 1vw)
+}
+h4 {
+    font-size: calc(1.2rem + 1vw)
+}
 h5 {
     font-size: calc(1rem + 1vw)
 }
+
 
 /* most views - primarily header divs */
 .shadow {
