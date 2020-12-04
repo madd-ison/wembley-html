@@ -58,7 +58,6 @@ h5 {
     font-size: calc(1rem + 1vw)
 }
 
-
 /* most views - primarily header divs */
 .shadow {
     border-radius: 25px;
@@ -544,6 +543,7 @@ a.text-primary:hover, a.text-primary:focus {
         top: 0;
         right: 0;
         height: 100%;
+        padding: 1rem 1.5rem !important;
     }
     .fixed-nav {
         display: none !important;
@@ -552,7 +552,7 @@ a.text-primary:hover, a.text-primary:focus {
         padding-right: 30px !important;
     }
     .flip-border {
-        border-bottom: 60px solid #E85232;
+        border-bottom: 80px solid #E85232;
     }
     .love-grid { 
         column-gap: 1em;
