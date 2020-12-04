@@ -476,9 +476,6 @@ a.text-primary:hover, a.text-primary:focus {
         width: 90px !important;
         border-radius: 50%;    
     }
-    .header-sm {
-        font-size: 18px !important;
-    }
     .shadow {
         margin-top: 0px !important;
     }
