@@ -53,6 +53,9 @@ a {
 
 /* TO DO - better way to make responsive on larger screens ? */
 /* p sizing for lg screens in 1024 media query */
+p {
+    font-size: 4vmin;
+}
 h3 {
     font-size: calc(1.4rem + 1vw)
 }
