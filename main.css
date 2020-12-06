@@ -39,9 +39,9 @@ a {
     padding: 0px;
 }
 
-.container-fluid {
+/* .container-fluid {
     height: 100vh !important;
-}
+} */
 
 
 .fxs {
@@ -506,6 +506,10 @@ a.text-primary:hover, a.text-primary:focus {
         padding: 1em .2em 1em .2em;
         margin-bottom: 30px;
     }
+    /* prevent shadowed cols from stretching vertically on lg screens */
+    .info-box {
+    max-height: 18vh;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -572,10 +576,10 @@ a.text-primary:hover, a.text-primary:focus {
     .border-rt {
         border: none !important;
     }
-    /* .card {
+    .card, .container-fit {
         width: 90vw !important;
         height: 90vh !important;
-    } */
+    } 
 }
 
 @media screen and (max-height: 736px) {
@@ -595,7 +599,7 @@ a.text-primary:hover, a.text-primary:focus {
         flex-direction: column !important;
     }
     .col-md-6, .col-md-5 {
-        margin: 10px auto !important;
+        /* margin: 10px auto !important; */
         width: 100% !important;
     }
 }
