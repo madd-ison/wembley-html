@@ -35,6 +35,7 @@ body, .container-fluid {
     border-radius: 20px !important;
     padding-top: 1px;
     padding-bottom: 1px;
+    max-height: 6vh;
 }
 .btn-lg {
     padding: 10px 30px;  
@@ -595,5 +596,8 @@ a.text-primary:hover, a.text-primary:focus {
 @media screen and (min-width: 768px) {
     p {
         font-size: 2vh !important;
+    }
+    .hide-lg {
+        display: none !important;
     }
 }
