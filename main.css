@@ -466,8 +466,8 @@ a.text-primary:hover, a.text-primary:focus {
     }
     /* prevent shadowed cols from stretching vertically on lg screens */
     .info-box {
-    max-height: 18vh;
-}
+        max-height: 18vh;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -504,6 +504,9 @@ a.text-primary:hover, a.text-primary:focus {
         display: none !important;
     }
     .flip-border {
+        display: none !important;
+    }
+    .hide-mobile {
         display: none !important;
     }
 }
@@ -575,9 +578,6 @@ a.text-primary:hover, a.text-primary:focus {
         -webkit-column-gap: 1.5em;
         column-gap: 1em;
     } */
-}
-
-@media screen and (min-width: 768px) {
     p {
         font-size: 2vh !important;
     }
