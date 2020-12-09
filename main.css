@@ -519,9 +519,6 @@ a.text-primary:hover, a.text-primary:focus {
     .fixed-nav {
         display: none !important;
     }
-    .container-fluid {
-        padding-right: 30px !important;
-    }
     .flip-border {
         border-bottom: 80px solid #E85232;
     }
@@ -565,8 +562,8 @@ a.text-primary:hover, a.text-primary:focus {
 
 @media screen and (min-width: 768px) {
     .title-img {
-        max-width: 557px;
-        max-height: 181px;
+        max-width: 30vw;
+        max-height: auto;
     }
     /* .masonry {
         -webkit-column-count: 6;
