@@ -233,10 +233,7 @@ h5 {
 }
 
 .groups-img {
-    height: 77px;
-    width: 77px;
-    border-radius: 50%;
-    display: inline-block;
+    max-height: 140px;
 }
 .dot-sm {
     height: 69px;
@@ -333,6 +330,7 @@ h5 {
     color: #fff;
     background-color: #E85232;
     border-color: #E85232;
+    box-shadow: 1px 1px 3px #8b8a8a;
 }
 .btn-primary:hover {
     color: #fff;
@@ -470,6 +468,7 @@ a.text-primary:hover, a.text-primary:focus {
     /* prevent shadowed cols from stretching vertically on lg screens */
     .info-box {
         max-height: 18vh;
+        max-width: 628px;
     }
 }
 
@@ -571,20 +570,17 @@ a.text-primary:hover, a.text-primary:focus {
         max-width: 30vw;
         max-height: auto;
     }
-    /* .masonry {
-        -webkit-column-count: 6;
-        -moz-column-count:6;
-        column-count: 6;
-        -webkit-column-gap: 1em;
-        -moz-column-gap: .5em;
-        -moz-column-gap: 1.5em;
-        -webkit-column-gap: 1.5em;
-        column-gap: 1em;
-    } */
     p {
         font-size: 2vh !important;
     }
     .hide-lg {
         display: none !important;
+    }
+}
+
+@media screen and (min-width: 1367px) {
+    .card, .container-fit {
+        width: 93vw !important;
+        height: 90vh !important;
     }
 }
