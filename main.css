@@ -62,6 +62,9 @@ h4 {
 h5 {
     font-size: calc(1rem + 1vw)
 }
+.h6 {
+    font-size: calc(.8rem + 1vw)
+}
 
 /* most views - primarily header divs */
 .shadow {
