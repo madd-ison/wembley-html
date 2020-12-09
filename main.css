@@ -31,9 +31,8 @@ body, .container-fluid {
     background-image: url(assets/map.jpg);
 }
 
-.btn, .btn-light {
+.btn {
     border-radius: 20px !important;
-    padding: 1px 10px !important;
 }
 .btn-lg {
     padding: 10px 30px;  
@@ -42,10 +41,9 @@ body, .container-fluid {
     border-color: #3d3c3c;
 }
 
-.btn-sm {
+/* .btn-small {
     font-size: small;
-    padding: 0px !important;
-}
+} */
 
 /* .container-fluid {
     height: 100vh !important;
