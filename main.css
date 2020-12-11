@@ -16,7 +16,7 @@ body, .container-fluid {
     right: 0;
     bottom: 0;
     overflow: auto;
-  }
+}
 
 /* background for landing pages */
 .bg {
@@ -27,6 +27,7 @@ body, .container-fluid {
     background-color: #fafafa;
 }
 
+/* placeholder for interactive map */
 .bg-map {
     background-image: url(assets/map.jpg);
 }
@@ -41,12 +42,6 @@ body, .container-fluid {
     border-color: #3d3c3c;
 }
 
-.fxs {
-    font-size: x-small;
-}
-.rm {
-    font-family: 'Roboto Mono', monospace;
-}
 
 /* TO DO - better way to make responsive on larger screens ? */
 /* p sizing for lg screens in 1024 media query */
@@ -65,6 +60,12 @@ h5 {
 .h6 {
     font-size: calc(.8rem + 1vw)
 }
+.fxs {
+    font-size: x-small;
+}
+.rm {
+    font-family: 'Roboto Mono', monospace;
+}
 
 .lh-tight {
     line-height: .8em;
@@ -82,10 +83,6 @@ h5 {
 .img-fluid {
     min-height: 80px;
     min-width: 90px;
-}
-.img-sm {
-    max-height: 80px;
-    max-width: 80px;
 }
 
 .action {
@@ -504,16 +501,10 @@ a.text-primary:hover, a.text-primary:focus {
     .border-rt {
         border: none !important;
     }
-    .card, .container-fit {
+    .card {
         width: 90vw !important;
         height: 90vh !important;
     } 
-}
-
-@media screen and (max-height: 736px) {
-    .shadow {
-        margin-top: 0px !important;
-    }
 }
 
 @media screen and (min-height: 1024px) and (max-width: 1024px) {
@@ -541,7 +532,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 @media screen and (min-width: 1367px) {
-    .card, .container-fit {
+    .card {
         width: 93vw !important;
         height: 90vh !important;
     }
