@@ -66,14 +66,6 @@ h5 {
     font-size: calc(.8rem + 1vw)
 }
 
-/* most views - primarily header divs */
-.shadow {
-    border-radius: 25px;
-    box-shadow: 3px 3px 3px #3d3c3c;
-    margin: 10px auto;
-    padding: 10px;
-}
-
 .lh-tight {
     line-height: .8em;
 }
@@ -127,11 +119,9 @@ h5 {
     border-radius: 0px !important;
 }
 
-/* rounded input (welcome page - newsletter sign up) */
-.input-r {
+.rounded-25 {
     border-radius: 25px !important;
 }
-/*-------------------------------------------------*/
 
 
 .modal-header {
@@ -391,11 +381,8 @@ a.text-primary:hover, a.text-primary:focus {
     .vertical {
         display: none;
     }
-    .hide-sm {
+    .hide-xs {
         display: none !important;
-    }
-    .no-border {
-        border: none;
     }
     .shrink {
         font-size: small;
@@ -524,12 +511,6 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 @media screen and (max-height: 736px) {
-    .hide-md {
-        display: none !important;
-    }
-    .no-border {
-        border: none !important;
-    }
     .shadow {
         margin-top: 0px !important;
     }
