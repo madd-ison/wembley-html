@@ -211,41 +211,33 @@ h5 {
 
 
 /* image grid for art views -- subject to change */
-.masonry {
+.img-grid {
     -webkit-column-count: 3;
-    -moz-column-count:3;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 3;
+    -moz-column-gap: 0px;
     column-count: 3;
-    -webkit-column-gap: 1em;
-    -moz-column-gap: .5em;
-    -moz-column-gap: 1.5em;
-    -webkit-column-gap: 1.5em;
-    column-gap: 1em;
-    flex-wrap: wrap;
+    column-gap: 3px; 
 }
-.item {
-    padding: 0 .2em .3em .2em;
-    width: 100%;
-    transition: 1s ease all;
-	-webkit-transition:1s ease all;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-.item img{
+.img-grid img{
     width: 100% !important; 
     height: auto !important;
-    border-radius: 10px;
+    margin-bottom: .6rem;
+    transition: 1s ease all;
+    -webkit-transition:1s ease all;
 }
-
 .img-muted {
     opacity: 70%;
     -webkit-filter: grayscale(100%);
-       -moz-filter: grayscale(100%);
-         -o-filter: grayscale(100%);
-        -ms-filter: grayscale(100%);
-            filter: grayscale(100%); 
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%); 
 }
 
+.modal-img {
+    max-width: 90%;
+}
 
 /* 'eligible deals' img with text overlay */
 .deal {

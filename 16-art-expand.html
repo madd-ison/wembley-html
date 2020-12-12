@@ -10,100 +10,85 @@
     <title>Wembley Park</title>
   </head>
   <body>
-      <div class='container-fluid'>
+    <div class='container-fluid'>
 
-        <div class='col-md-8'>
-          <h4 class='mt-4 text-primary rm'>Second Floor Art Studios</h4>
-          <p class='small shrink-x'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Duis nec elit ac leo ornare bibendum. Lorem ipsum dolor 
-            sit amet, consectetur adipiscing elit. Morbi dictum, dolor 
-            a hendrerit condimentum, justo tellus imperdiet ante, sit 
-            amet tincidunt massa mi vel sem.</p>
+      <div class='col-md-8'>
+        <h4 class='mt-4 text-primary rm'>Second Floor Art Studios</h4>
+        <p class='small shrink-x'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Duis nec elit ac leo ornare bibendum. Lorem ipsum dolor 
+          sit amet, consectetur adipiscing elit. Morbi dictum, dolor 
+          a hendrerit condimentum, justo tellus imperdiet ante, sit 
+          amet tincidunt massa mi vel sem.</p>
 
-            <div class='hide-xs'>
-              <div class='pb-5'></div>
-            </div>
+          <div class='hide-xs'>
+            <div class='pb-5'></div>
+          </div>
+      </div>
+
+      <div class='row mb-0'>
+        <div class='col-6 pt-3 pb-3'>
+          <button class='btn btn-primary shrink'>Link to External</button>
         </div>
+        <span class='col-3 primary-muted line-b'></span>
+        <span class='col-3 primary-muted line-l line-top'></span>
+      </div>
+      <div class='row hide-xs'>
+        <span class='col-6 primary-muted pt-5'></span>
+        <span class='col-6 primary-muted line-l'></span>
+      </div>
 
-          <div class='row mb-0'>
-            <div class='col-6 pt-3 pb-3'>
-              <button class='btn btn-primary shrink'>Link to External</button>
-            </div>
-            <span class='col-3 primary-muted line-b'></span>
-            <span class='col-3 primary-muted line-l line-top'></span>
-          </div>
-          <div class='row hide-xs'>
-            <span class='col-6 primary-muted pt-5'></span>
-            <span class='col-6 primary-muted line-l'></span>
-          </div>
+    <div class="img-grid mt-0 pt-0 pr-md-4">
+      <button type="button" class="btn" data-toggle="modal" data-target="#artExpandedView">
+        Launch demo modal
+      </button> 
+      <img src='assets/art.jpg' alt='art' class='img-fluid rounded' /> 
+      <img src='assets/art.jpg' alt='art' class='img-fluid rounded' /> 
+      <img src='assets/art-2.jpg' alt='art' class='img-fluid rounded' /> 
+      <img src='assets/art.jpg' alt='art' class='img-fluid rounded' /> 
+      <img src='assets/art.jpg' alt='art' class='img-fluid rounded' /> 
+      <img src='assets/art.jpg' alt='art' class='img-fluid rounded' /> 
+      <img src='assets/art.jpg' alt='art' class='img-fluid rounded' /> 
+      <img src='assets/art-2.jpg' alt='art' class='img-fluid rounded' /> 
+  </div>
 
-        <div class="masonry mt-0 pt-0 pr-md-5 pb-4">
-          <button type="button" class="btn" data-toggle="modal" data-target="#artExpandedView">
-            Launch demo modal
-          </button>
-          <div class="item">
-            <img src='assets/art-2.jpg' alt='art' class='img-fluid rounded' />  
-          </div>
-          <div class="item">
-            <img src='assets/art.jpg' alt='art' class='img-fluid rounded' />  
-          </div>
-          <div class="item">
-            <img src='assets/art.jpg' alt='art' class='img-fluid rounded' />  
-          </div>
-          <div class="item">
-            <img src='assets/art.jpg' alt='art' class='img-fluid rounded' />  
-          </div>
-          <div class="item">
-            <img src='assets/art-2.jpg' alt='art' class='img-fluid rounded' />  
-          </div>
-          <div class="item">
-            <img src='assets/art-2.jpg' alt='art' class='img-fluid rounded' />  
-          </div>
-          <div class="item">
-            <img src='assets/art.jpg' alt='art' class='img-fluid rounded' />  
-          </div>
-          <div class="item">
-            <img src='assets/art.jpg' alt='art' class='img-fluid rounded' />  
-          </div>
-        </div> 
+    <!-- fixed-bottom footer height / push content up on small screens -->
+      <div>
+        <div class='row py-4'></div>
       </div>
 
         <!-- img triggers modal -->
         
         <!-- img / title / artist, like/back to grid -->
-        <div class="modal fade" id="artExpandedView" tabindex="-1" role="dialog" aria-labelledby="artExpandedView" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content pt-3">
-              <div class="modal-header border-0 item">
-                <img src='assets/art.jpg' alt='art' class='image-fluid ml-auto mr-auto' />
-              </div>
-              <div class="modal-body">
-                <h5>Name of Artwork</h5>
-                  <div class='d-flex flex-row'>
-                    <img src='icons/avatar.svg' alt='avatar icon' class='mr-1'/>
-                    <span class='mt-1 small'>
+      <div class="modal fade" id="artExpandedView" tabindex="-1" role="dialog" aria-labelledby="artExpandedView" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content pt-3">
+            <div class="modal-header border-0 item">
+              <img src='assets/art.jpg' alt='art' class='img-fluid rounded ml-auto mr-auto' />
+            </div>
+            <div class="modal-body">
+              <h5>Name of Artwork</h5>
+                <div class='d-flex flex-row'>
+                  <img src='icons/avatar.svg' alt='avatar icon' class='mr-1' />
+                  <span class='mt-1 small'>
                       Name of Artist
-                    </span>
+                  </span>
                 </div>
-              </div>
-              <div class="modal-footer border-0 pb-5 justify-content-around">
-                <a href='#'>
-                  <img src='icons/heart.svg' alt='like' class='img-fluid' />
-                </a>
-                <a href='#'>
-                  <img src='icons/eye.svg' alt='exit view' class='img-fluid' data-dismiss='modal' />
-                </a>
-              </div>
+            </div>
+            <div class="modal-footer border-0 pb-5 justify-content-around">
+              <a href='#'>
+                <img src='icons/heart.svg' alt='like' class='img-fluid' />
+              </a>
+              <a href='#'>
+                <img src='icons/eye.svg' alt='exit view' class='img-fluid' data-dismiss='modal' />
+              </a>
             </div>
           </div>
         </div>
-
-        <!-- fixed-bottom footer height / push content up on small screens -->
-          <div>
-            <div class='row py-4'></div>
-          </div>
-
       </div>
+      
+        
+
+    </div>
 
         <!-- TO DO replace w correct icons -->
         <nav class="navbar fixed-nav fixed-bottom d-flex flex-row justify-content-around text-muted">
