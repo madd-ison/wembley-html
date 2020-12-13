@@ -478,14 +478,13 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 /*---------------------- 
-    TO DO figure out why this is here before deleting 
+    keeps content from switching to flex-row on ipad portrait view 
 -----------------------*/
 @media screen and (min-height: 1024px) and (max-width: 1024px) {
     .d-md-flex {
         flex-direction: column !important;
     }
     .col-md-6, .col-md-5 {
-        /* margin: 10px auto !important; */
         width: 100% !important;
     }
 } 
