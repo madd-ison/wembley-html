@@ -477,6 +477,9 @@ a.text-primary:hover, a.text-primary:focus {
     } 
 }
 
+/*---------------------- 
+    TO DO figure out why this is here before deleting 
+-----------------------*/
 @media screen and (min-height: 1024px) and (max-width: 1024px) {
     .d-md-flex {
         flex-direction: column !important;
@@ -485,7 +488,7 @@ a.text-primary:hover, a.text-primary:focus {
         /* margin: 10px auto !important; */
         width: 100% !important;
     }
-}
+} 
 
 
 @media screen and (min-width: 768px) {
