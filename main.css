@@ -440,12 +440,13 @@ a.text-primary:hover, a.text-primary:focus {
     .flip-border {
         display: none !important;
     }
-    .hide-mobile {
-        display: none !important;
-    }
 }
 
 @media screen and (min-width: 568px) {
+    .container-fit {
+        padding-right: 1.5rem !important;
+        padding-bottom: 40px !important;
+    }
     .flip-nav {
         position: fixed;
         top: 0;
@@ -457,7 +458,7 @@ a.text-primary:hover, a.text-primary:focus {
         display: none !important;
     }
     .flip-border {
-        border-bottom: 80px solid #E85232;
+        border-bottom: 50px solid #E85232;
     }
     .love-grid { 
         column-gap: 1em;
@@ -469,8 +470,10 @@ a.text-primary:hover, a.text-primary:focus {
         border: none !important;
     }
     .card {
-        width: 90vw !important;
-        height: 90vh !important;
+        margin-right: 5rem !important;
+        height: -moz-calc(100% - 60px); /* Firefox */
+        height: -webkit-calc(100% - 60px); /* Chrome, Safari */
+        height: calc(100% - 60px); /* IE9+ and future browsers */
     } 
 }
 
