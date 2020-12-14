@@ -471,8 +471,8 @@ a.text-primary:hover, a.text-primary:focus {
     }
     .card {
         margin-right: 5rem !important;
-        height: 100% !important;
-        overflow: scroll !important;
+        min-height: 100% !important;
+        overflow: auto !important;
     } 
 }
 
