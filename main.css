@@ -339,11 +339,11 @@ a.text-primary:hover, a.text-primary:focus {
     border-radius: 10px;
 }
 
-    /* prevent shadowed cols from stretching vertically on lg screens */
-    .info-box {
+/* prevent shadowed cols from stretching vertically on lg screens */
+.info-box {
         max-height: 18vh;
         max-width: 628px;
-    }
+}
 
   
 /* special xs size tweaks for iphone 5 */
@@ -444,10 +444,6 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 @media screen and (min-width: 568px) {
-    .container-fit {
-        padding-right: 1.5rem !important;
-        padding-bottom: 40px !important;
-    }
     .flip-nav {
         position: fixed;
         top: 0;
@@ -498,13 +494,17 @@ a.text-primary:hover, a.text-primary:focus {
     p {
         font-size: 2vh !important;
     }
-    .hide-lg {
-        display: none !important;
-    }
-    .card {
-        height: -moz-calc(100% - 60px); /* Firefox */
-        height: -webkit-calc(100% - 60px); /* Chrome, Safari */
-        height: calc(100% - 60px); /* IE9+ and future browsers */
+    /* .card {
+        height: -moz-calc(100% - 60px); 
+        Firefox 
+        height: -webkit-calc(100% - 60px); 
+        Chrome, Safari
+        height: calc(100% - 60px); 
+         IE9+ and future browsers 
+    } */
+    .container-fit {
+        padding-right: 1.5rem !important;
+        padding-bottom: 40px !important;
     }
 }
 
