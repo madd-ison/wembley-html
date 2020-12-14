@@ -439,6 +439,7 @@ a.text-primary:hover, a.text-primary:focus {
 
 @media screen and (min-width: 568px) {
     /* prevent shadowed cols from stretching vertically on lg screens */
+    /* TO DO rethink this */
     .info-box {
     max-height: 20vh;
     max-width: 628px;
