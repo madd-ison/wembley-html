@@ -440,9 +440,6 @@ a.text-primary:hover, a.text-primary:focus {
     .flip-border {
         display: none !important;
     }
-    .card {
-        height: 100% !important;
-    } 
 }
 
 @media screen and (min-width: 568px) {
@@ -474,9 +471,8 @@ a.text-primary:hover, a.text-primary:focus {
     }
     .card {
         margin-right: 5rem !important;
-        height: -moz-calc(100% - 60px); /* Firefox */
-        height: -webkit-calc(100% - 60px); /* Chrome, Safari */
-        height: calc(100% - 60px); /* IE9+ and future browsers */
+        height: 100% !important;
+        overflow: scroll !important;
     } 
 }
 
@@ -503,6 +499,11 @@ a.text-primary:hover, a.text-primary:focus {
     }
     .hide-lg {
         display: none !important;
+    }
+    .card {
+        height: -moz-calc(100% - 60px); /* Firefox */
+        height: -webkit-calc(100% - 60px); /* Chrome, Safari */
+        height: calc(100% - 60px); /* IE9+ and future browsers */
     }
 }
 
