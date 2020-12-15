@@ -42,6 +42,10 @@ a {
     border-color: #3d3c3c;
 }
 
+.shadow {
+    box-shadow: 2px 2px 2px 2px #e7e6e6;
+}
+
 
 /* TO DO - better way to make responsive on larger screens ? */
 /* p sizing for lg screens in 1024 media query */
