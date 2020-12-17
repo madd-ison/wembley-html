@@ -49,7 +49,7 @@ a {
 
 /* TO DO - better way to make responsive on larger screens ? */
 /* p sizing for lg screens in 1024 media query */
-p {
+/* p {
     font-size: 3.5vmin;
 }
 h3 {
@@ -63,7 +63,7 @@ h5 {
 }
 .h6 {
     font-size: calc(.8rem + 1vw)
-}
+} */
 .fxs {
     font-size: x-small;
 }
@@ -481,11 +481,11 @@ a.text-primary:hover, a.text-primary:focus {
     keeps content from switching to flex-row on ipad portrait view 
 -----------------------*/
 @media screen and (min-height: 1024px) and (max-width: 1024px) {
-    .d-md-flex {
+    .portrait {
         flex-direction: column !important;
     }
-    .col-md-6, .col-md-5 {
-        width: 100% !important;
+    .col-md-6 {
+        margin: auto !important;
     }
 } 
 
@@ -495,9 +495,9 @@ a.text-primary:hover, a.text-primary:focus {
         max-width: 30vw;
         max-height: auto;
     }
-    p {
+    /* p {
         font-size: 2vmin !important;
-    }
+    } */
     /* .card {
         height: -moz-calc(100% - 60px); 
         Firefox 
