@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet" type="text/css" />
+
+
+  <title>Wembley Park</title>
+  </head>
+  <body>
+    <div class='card shadow mx-2'>
+      <div class='card-body'>
+        <div class='row portrait'>
+          <div class='col-md-6 px-0'>
+            <div class='d-flex flex-row px-0 pb-3'>
+                <div class='col-5 px-1'>
+                    <img src='assets/profile-photo.jpg' alt='profile photo' class='img-fluid rounded-circle' />
+                </div>
+                <div class='col-7'>
+                    <div class='d-flex flex-row'>
+                        <img src='icons/avatar.svg' alt='avatar icon' />
+                        <p class='small pt-3 pl-2'>Name of Artist</p>
+                    </div>
+                    <p class='small'>This is a bio section. Artist can 
+                        share a brief description.
+                    </p>
+                </div>
+            </div> 
+            <div class='row pl-3 mb-5 rm-mb text-primary'>
+                <p>
+                  <a href='#'>
+                    <img src='icons/arrow.svg' alt='back to devices' class='img-thumbnail border-0'/> Devices
+                  </a>
+                </p>
+            </div>
+            <div class='col d-flex flex-row shadow rounded-25 align-items-center py-2 px-0'>
+              <div class='col-4'>
+                <span class='dot-sm bg-primary'></span>
+              </div>
+              <div class='col-8 d-flex flex-column mt-2'>
+                <h5 class='text-primary mb-1'>Connected</h5>
+                <p class='text-primary shrink-x my-0'>Name of Device very long</p>
+                <p class='shrink-x'>Network Name</p>
+              </div>
+            </div>
+          </div>
+
+        <div class='col-md px-0 d-flex flex-column'>
+          <div class='py-5 d-none d-md-flex'></div>
+          <h5 class='text-primary pb-2 mb-2 shrink'>Devices</h5>
+            <div class='card-footer py-4 mb-5 footer-sm'>
+              <div class='row d-flex flex-row'>
+                <div class='col-3 px-0'>
+                  <img src='icons/device.svg' alt='device icon'/>
+                </div>
+                <div class='col-4 lh-tight mt-3'>
+                  <p class='small shrink-x text-primary'>name of device</p>
+                  <p class='small shrink-x text-primary'>000:000:000:000</p>
+                </div>
+                <div class='col pr-0 mt-3'>
+                  <!-- TO DO re-style buttons -->
+                  <button class='btn btn-sm btn-light shrink-x mb-2'>View</button>
+                  <button class='btn btn-sm btn-light shrink-x'>Disconnect</button>
+                </div>
+              </div>
+            <hr />
+            <div class='row text-center'>
+              <div class='col-8'>
+                <p class='small shrink-x text-primary'>15 Devices <b>Not</b> Connected</p>
+              </div>
+              <div class='col-4'>
+                <button class='btn btn-sm btn-light shrink-x mb-2 px-3'>View</button>
+              </div>
+              </div>
+            </div>
+
+            <div class='row py-2 mb-4'>
+              <div class='col text-center'>
+                <a href='#'>
+                  <img src='icons/advanced.svg' alt='advanced features' class='text'/>
+                </a>
+              </div>
+            </div>
+
+        <!-- fixed-bottom footer height / push content up on small screens -->
+            <div class='d-md-none'>
+              <div class='row pt-5'></div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- TO DO replace w correct icons -->
+        <nav class="navbar fixed-bottom fixed-nav d-flex flex-row justify-content-around text-muted">
+          <a class="navbar-link px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          |
+          <a class="navbar-link px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          |
+          <a class="navbar-link px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          |
+          <a class="navbar-link px-0" href="#">
+            <img src='icons/avatar-wht.svg' alt='profile'/>
+          </a>
+        </nav>
+        <!-- nav for lg screens - TO DO see if these can be combined-->
+        <!-- make icons responsive -->
+        <nav class="navbar flip-nav d-flex flex-column justify-content-start text-muted">
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link pb-5 px-0" href="#">
+            <img src='icons/globe.svg' alt='placeholder'/>
+          </a>
+          <a class="navbar-link px-0" href="#">
+            <img src='icons/avatar-wht.svg' alt='profile'/>
+          </a>
+        </nav>
+        <footer class='fixed-bottom flip-border horizontal-hide'>
+          <h4 class='pl-5 ml-5 mb-xl-1 text-light fixed-bottom'><img src='icons/globe.svg' alt='globe'/><small class='ml-2'>  Visit</small>WembleyPark.com</h4>
+        </footer>
+      
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
