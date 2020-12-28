@@ -46,24 +46,6 @@ a {
     box-shadow: 2px 2px 2px 2px #e7e6e6;
 }
 
-
-/* TO DO - better way to make responsive on larger screens ? */
-/* p sizing for lg screens in 1024 media query */
-/* p {
-    font-size: 3.5vmin;
-}
-h3 {
-    font-size: calc(1.4rem + 1vw)
-}
-h4 {
-    font-size: calc(1.2rem + 1vw)
-}
-h5 {
-    font-size: calc(1rem + 1vw)
-}
-.h6 {
-    font-size: calc(.8rem + 1vw)
-} */
 .fxs {
     font-size: x-small;
 }
@@ -410,9 +392,9 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 @media screen and (max-height: 414px) {
-    .pull-left {
+    /* .pull-left {
         padding-right: 30px !important; 
-    }
+    } */
     .flip-border {
         display: none !important;
     }
@@ -441,13 +423,7 @@ a.text-primary:hover, a.text-primary:focus {
     }
 }
 
-@media screen and (min-width: 568px) {
-    /* prevent shadowed cols from stretching vertically on lg screens */
-    /* TO DO rethink this */
-    .info-box {
-    max-height: 20vh;
-    max-width: 628px;
-    }   
+@media screen and (min-width: 568px) {  
     .flip-nav {
         position: fixed;
         top: 0;
